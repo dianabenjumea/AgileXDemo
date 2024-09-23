@@ -1,0 +1,8 @@
+prefix=/home/agilex/catkin_ws/devel
+
+Name: wrp_io
+Description: Description of wrp_io
+Version: 0.1.5
+Cflags: -I/home/agilex/catkin_ws/src/ugv_sdk/wrp_io/include -I/home/agilex/catkin_ws/src/ugv_sdk/wrp_io/include/asio/include
+Libs: -L${prefix}/lib -lwrp_io
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/agilex/catkin_ws/devel
+
+Name: ugv_sdk
+Description: Description of ugv_sdk
+Version: 0.1.6
+Cflags: -I/home/agilex/catkin_ws/src/ugv_sdk/ugv_sdk/include
+Libs: -L${prefix}/lib -lugv_sdk
+Requires: wrp_io

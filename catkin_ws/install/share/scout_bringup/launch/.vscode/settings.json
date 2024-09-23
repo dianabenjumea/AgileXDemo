@@ -1,0 +1,6 @@
+{
+    "ros.distro": "kinetic",
+    "python.autoComplete.extraPaths": [
+        "/home/a/文档/catkin_ws/devel/lib/python2.7/dist-packages"
+    ]
+}

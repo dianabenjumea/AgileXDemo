@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/agilex/catkin_ws/src/ugv_sdk/ugv_sdk/include/ugv_sdk/proto/agx_msg_parser.h
+stdint.h
+-
+stdbool.h
+-
+string.h
+-
+ugv_sdk/proto/agx_protocol_v2.h
+/home/agilex/catkin_ws/src/ugv_sdk/ugv_sdk/include/ugv_sdk/proto/ugv_sdk/proto/agx_protocol_v2.h
+linux/can.h
+-
+
+/home/agilex/catkin_ws/src/ugv_sdk/ugv_sdk/include/ugv_sdk/proto/agx_protocol_v2.h
+stdint.h
+-
+
+/home/agilex/catkin_ws/src/ugv_sdk/ugv_sdk/src/agx_msg_parser.c
+ugv_sdk/proto/agx_msg_parser.h
+/home/agilex/catkin_ws/src/ugv_sdk/ugv_sdk/src/ugv_sdk/proto/agx_msg_parser.h
+string.h
+/home/agilex/catkin_ws/src/ugv_sdk/ugv_sdk/src/string.h
+

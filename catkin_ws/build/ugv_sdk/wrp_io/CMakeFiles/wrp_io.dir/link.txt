@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libwrp_io.so -o /home/agilex/catkin_ws/devel/lib/libwrp_io.so CMakeFiles/wrp_io.dir/src/async_serial.cpp.o CMakeFiles/wrp_io.dir/src/async_can.cpp.o -lpthread 

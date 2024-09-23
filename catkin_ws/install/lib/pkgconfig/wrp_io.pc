@@ -1,0 +1,8 @@
+prefix=/home/agilex/catkin_ws/install
+
+Name: wrp_io
+Description: Description of wrp_io
+Version: 0.1.5
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lwrp_io
+Requires: 
