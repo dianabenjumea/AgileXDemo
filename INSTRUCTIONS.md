@@ -78,9 +78,6 @@ roslaunch scout_bringup gmapping.launch
 ```
 
 
-# Connect to the robot using SSH
-
-
 
 ## Manuals:
 1. GLinet: https://m.media-amazon.com/images/I/B1sH9EgTLGS.pdf
@@ -88,5 +85,4 @@ roslaunch scout_bringup gmapping.launch
    - https://docs.gl-inet.com/router/en/3/specification/gl-ar750/
    - https://docs.gl-inet.com/router/en/3/setup/gl-ar750/first_time_setup/?_gl=1*1qes6ym*_gcl_au*OTUxNTM2Njg5LjE3Mjg0ODY5MTM.*_ga*MjA2NjM2MTU0OC4xNzI4NDg2OTEy*_ga_34T6Q5NL0V*MTcyODQ4NjkxMi4xLjEuMTcyODQ4NzI2Ny4wLjAuMA..
    - https://www.gl-inet.com/products/gl-ar750/#specs
-3. Nadgear(provided by RAICo): https://www.downloads.netgear.com/files/GDC/GS105E/GS105E_IGprt_24Sept12.pdf
 4. RS-Helios-16P: https://static.generation-robots.com/media/RS-HELIOS-16P_USER_GUIDE_V1.0.1_EN.pdf
