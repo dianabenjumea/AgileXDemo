@@ -5,7 +5,7 @@ limited the connection to the robot. To address this, I modified the hardware se
 the lidar directly to the Nvidia Jetson Xavier unit. In addition, to maintain both internet connectivity and communication
 with the lidar I changed the IP address in the Velodyne configuration.
 
-
+![screenshot](HardwareArchitecture.png)
 
 # Teleoperation
 
