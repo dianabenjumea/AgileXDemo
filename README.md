@@ -1,5 +1,16 @@
+The code used in this project comes from the following sources:
+ 
+ - ROS packages for Scout Mobile Robot: 
+ https://github.com/agilexrobotics/scout_ros
+
+ This packages have been modified to being used in this demo. The code is saved in the catkin folder of this respository.
+
+Please note that the manual referenced in these instructions can be found [here](Documentation/user-guide-agilex-robotics-research-and-development-kit-fr.pdf)
+
+
+
 # General information: 
-1. This machine is ubuntu 18.04 running with ros melodic.
+1. The AgileX robot computer is ubuntu 18.04 running with ros melodic.
 2. The following figure is the external connection of Nvidia Jetson Nano. I identified an issue with the router that
 limited the connection to the robot. To address this, I modified the hardware setup by bypassing the router, and connecting
 the lidar directly to the Nvidia Jetson Xavier unit. In addition, to maintain both internet connectivity and communication
@@ -72,17 +83,21 @@ First we need to map the area following the manual instructions (I have already 
 roslaunch scout_bringup open_rslidar.launch
 ```
 ### Terminal 2:
-（2）Launch gmapping node Gmapping Algorithm:
+（2）Start move_base navigation:
 ```bash
-roslaunch scout_bringup gmapping.launch
+roslaunch scout_bringup navigation_4wd.launch
 ```
 
 
-
 ## Manuals:
-1. GLinet: https://m.media-amazon.com/images/I/B1sH9EgTLGS.pdf
-2. GLinet other links with technical information: 
+1. AgileX Scout Mini manuals:
+   - https://static.generation-robots.com/media/user-guide-agilex-robotics-research-and-development-kit-fr.pdf
+   - https://agilexrobotics.gitbook.io/scout-mini-lite-and-pro/3-development-guide#id-3.7-navigation-and-positioning-based-on-gmapping-open-source-architecture
+2. RS-Helios-16P: https://static.generation-robots.com/media/RS-HELIOS-16P_USER_GUIDE_V1.0.1_EN.pdf
+3. GLinet: https://m.media-amazon.com/images/I/B1sH9EgTLGS.pdf
+4. GLinet other links with technical information: 
    - https://docs.gl-inet.com/router/en/3/specification/gl-ar750/
    - https://docs.gl-inet.com/router/en/3/setup/gl-ar750/first_time_setup/?_gl=1*1qes6ym*_gcl_au*OTUxNTM2Njg5LjE3Mjg0ODY5MTM.*_ga*MjA2NjM2MTU0OC4xNzI4NDg2OTEy*_ga_34T6Q5NL0V*MTcyODQ4NjkxMi4xLjEuMTcyODQ4NzI2Ny4wLjAuMA..
    - https://www.gl-inet.com/products/gl-ar750/#specs
-4. RS-Helios-16P: https://static.generation-robots.com/media/RS-HELIOS-16P_USER_GUIDE_V1.0.1_EN.pdf
+
+
