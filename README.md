@@ -10,7 +10,7 @@ Please note that the manual referenced in these instructions can be found [here]
 
 
 # General information: 
-1. The AgileX robot computer is ubuntu 18.04 running with ros melodic.
+1. The AgileX robot computer is ubuntu 20.04.06 LTS running with ros Noetic.
 2. The following figure is the external connection of Nvidia Jetson Nano. I identified an issue with the router that
 limited the connection to the robot. To address this, I modified the hardware setup by bypassing the router, and connecting
 the lidar directly to the Nvidia Jetson Xavier unit. In addition, to maintain both internet connectivity and communication
@@ -29,7 +29,7 @@ with the lidar I changed the IP address in the Velodyne configuration.
      - Password:agx
   
 ### Option 2 - Connect to the robot using SSH
-ssh agilex@10.204.79.114
+ssh agilex@xx.xxx.xx.xxx
 ifconfig --> inet flag
 - To activate open a window in the remote machine export DISPLAY=:0
 Reference: https://askubuntu.com/questions/405916/open-a-window-in-a-remote-machine
